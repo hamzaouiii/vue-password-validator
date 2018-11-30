@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <password-validator/>
+    <div class="container">
+      <password-validator/>
+    </div>
   </div>
 </template>
 
