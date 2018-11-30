@@ -1,29 +1,32 @@
-# vue-password-validator
+# Vue Password Validator
+Lightweight password validator Component in vue.js
+## Demo
+You can find a demo [Here](https://hamzaouiii.github.io/vue-password-validator/).
 
-## Project setup
+## Installation
+Using npm
+```bash
+npm i vue-password-validator --save
 ```
-yarn install
+or Using yarn 
+```bash
+yarn add vue-password-validator 
 ```
+## Usage
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+```js
+<template>
+  <div class="app">
+      <password-validator></password-validator>
+  </div>      
+</template>
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+import Vue from 'vue';
+import PasswordValidator from 'vue-password-validator';
+export default {
+	components: {
+		PasswordValidator
+	}
+}
 
-### Run your tests
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
