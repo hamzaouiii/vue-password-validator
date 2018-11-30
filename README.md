@@ -13,7 +13,7 @@ or Using yarn
 yarn add vue-password-validator 
 ```
 ## Usage
-
+This component cannot be used through the `<script>`tag! You will need to import it this way:
 ```js
 <template>
   <div class="app">
@@ -30,3 +30,12 @@ export default {
 }
 
 ```
+## Styling
+
+The component is styled with a width of 100%. You can simply change that by putting it in a container and give that container a specific width:
+```css
+.container {
+  width : 500px;
+}
+```
+
