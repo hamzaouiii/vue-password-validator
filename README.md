@@ -1,5 +1,9 @@
 # Vue Password Validator
-Lightweight password validator Component in vue.js
+Lightweight 🔓 password validator Component in vue.js
+<p align="center">
+  <img src="https://i.imgur.com/RU8fTvT.gif" alt="" title="Demo" />
+</p>
+
 ## Demo
 You can find a demo [Here](https://hamzaouiii.github.io/vue-password-validator/).
 
